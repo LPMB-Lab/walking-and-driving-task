@@ -13,6 +13,6 @@ public class Demo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * 16);
+        transform.Translate(Vector3.forward * Time.deltaTime);
     }
 }
